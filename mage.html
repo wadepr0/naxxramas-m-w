@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mage consumables list</title>
+  <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__wrap wrap">
+        <div class="header__logo">
+          <a class="header__logo__link" href="index.html">
+            <img class="header__logo__pic" src="img/logo.png" alt="naxxramas_patch_logo" />
+          </a>
+        </div>
+        <ul class="header__nav class__menu">
+          <li class="class__menu__item class__druid">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/druid.png" alt="druid" />Druid
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/druid_balance.png" alt="" />Balance</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/druid_feral.png" alt="" />Feral</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/druid_resto.png"
+                    alt="" />Restoration</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/druid_tank.png" alt="" />Tank</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__hunter">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/hunter.png" alt="hunter" />Hunter
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/hunter_dps.png" alt="" />DPS</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__mage">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/mage.png" alt="mage" />Mage
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="mage.html"><img class="class__icon-spec" src="img/specs/mage_fire.png" alt="" />Fire</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__paladin">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/paladin.png" alt="paladin" />Paladin
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/paladin_holy.png" alt="" />Holy</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__priest">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/priest.png" alt="priest" />Priest
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/priest_holy.png" alt="" />Holy</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/priest_shadow.png" alt="" />Shadow</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__rogue">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/rogue.png" alt="rogue" />Rogue
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/rogue_dps.png" alt="" />DPS</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__shaman">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/shaman.png" alt="shaman" />Shaman
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_ele.png" alt="" />Elemental</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_enh.png" alt="" />Enhancement</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_resto.png"
+                    alt="" />Restoration</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__warlock">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/warlock.png" alt="warlock" />Warlock
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="warlock.html"><img class="class__icon-spec" src="img/specs/warlock_dps.png" alt="" />DPS</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__warrior">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/warrior.png" alt="warrior" />Warrior
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/warrior_dps.png" alt="" />DPS</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/warrior_tank.png" alt="" />TANK</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <nav>
+          <label for="drop" id="foo" class="toggle" style="text-align:center; font-size: 18px">
+            <div class="arrow"><img src="img/arrow.png" alt="">Classes</div>
+          </label>
+          <input type="checkbox" id="drop" />
+          <ul class="menu">
+            <li class="class__druid">
+              <label for="drop-1" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/druid.png" alt="druid" />
+                  <p class="class__menu__dropbutton nav__class">Druid</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-1" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/druid_balance.png"
+                      alt="" />Balance</a></li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/druid_feral.png" alt="" />Feral</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/druid_resto.png"
+                      alt="" />Restoration</a></li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/druid_tank.png" alt="" />Tank</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__hunter">
+              <label for="drop-2" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/hunter.png" alt="hunter" />
+                  <p class="class__menu__dropbutton nav__class">Hunter</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-2" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/hunter_dps.png" alt="" />DPS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__mage">
+              <label for="drop-3" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/mage.png" alt="mage" />
+                  <p class="class__menu__dropbutton nav__class">Mage</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-3" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/mage_fire.png" alt="" />Fire</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__paladin">
+              <label for="drop-4" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/paladin.png" alt="paladin" />
+                  <p class="class__menu__dropbutton nav__class">Paladin</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-4" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/paladin_holy.png" alt="" />Holy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__priest">
+              <label for="drop-5" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/priest.png" alt="priest" />
+                  <p class="class__menu__dropbutton nav__class">Priest</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-5" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/priest_holy.png" alt="" />Holy</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/priest_shadow.png"
+                      alt="" />Shadow</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__rogue">
+              <label for="drop-6" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/rogue.png" alt="rogue" />
+                  <p class="class__menu__dropbutton nav__class">Rogue</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-6" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/rogue_dps.png" alt="" />DPS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__shaman">
+              <label for="drop-7" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/shaman.png" alt="shaman" />
+                  <p class="class__menu__dropbutton nav__class">Shaman</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-7" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_ele.png"
+                      alt="" />Elemental</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_enh.png"
+                      alt="" />Enhancement</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_resto.png"
+                      alt="" />Restoration</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__warlock">
+              <label for="drop-8" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/warlock.png" alt="warlock" />
+                  <p class="class__menu__dropbutton nav__class">Warlock</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-8" />
+              <ul class="">
+                <li><a href="warlock.html"><img class="class__icon-spec" src="img/specs/warlock_dps.png" alt="" />DPS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__warrior">
+              <label for="drop-9" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/warrior.png" alt="warrior" />
+                  <p class="class__menu__dropbutton nav__class">Warrior</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-9" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/warrior_dps.png" alt="" />DPS</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/warrior_tank.png" alt="" />Tank</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main">
+      <div class="main__wrap wrap">
+        <h1 class="main__title">Naxxramas <span>Mage</span> consumes list</h1>
+        <div class="main__tabs tabs">
+          <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+          <label for="tab-btn-1">Regular <span>Consumables</span></label>
+          <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+          <label for="tab-btn-2">Boss <span>Consumables</span></label>
+          <div id="content-1">
+            <div class="content__menu">
+              <br id="tab2" />
+              <a href="#tab1">Casual</a><a href="#tab2">Hardcore</a>
+              <div class="menu__inner--left">
+                <ul class="consumable__list">
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/supreme.png" alt="fosp"></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Flask of Supreme Power]
+                        </div>
+                        <div class="consumable__description--hover back">Necessary on the 2 last bosses</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Flask of Supreme Power</h3>
+                      <p class="consum__level">Item Level 60</p>
+                      <p class="consum__use">Use: Increases damage done by magical spells and effects by up to 150 for 2
+                        hrs. You can only have the effect of one flask at a time. This effect persists through death. (3
+                        Sec Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/ae.png" alt="ae"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Greater Arcane Elixir]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full consumable__hover-even">
+                      <h3 class="consum__title">Greater Arcane Elixir</h3>
+                      <p class="consum__level">Item Level 57</p>
+                      <p class="consum__use">Use: Increases spell damage by up to 35 for 1 hour. (3 Sec Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/eogfp.png" alt="eogfp"><span>10</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Elixir of Greater
+                          Firepower]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Elixir of Greater
+                        Firepower</h3>
+                      <p class="consum__level">Item Level 50</p>
+                      <p class="consum__use">Use: Increases spell fire damage by up to 40 for 30 min. (3 Sec Cooldown)
+                      </p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/mm.png" alt="mm"><span>15</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Major Mana Potion]
+                        </div>
+                        <div class="consumable__description--hover back">Mostly for boss fights</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full consumable__hover-even">
+                      <h3 class="consum__title">Major Mana Potion</h3>
+                      <p class="consum__level">Item Level 59</p>
+                      <p class="consum__use">Use: Restores 1350 to 2250 mana. (2 Min Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/lip.png" alt="lip"><span>15</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Limited Invulnerability Potion]
+                        </div>
+                        <div class="consumable__description--hover back">Use if you overaggro</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Limited Invulnerability
+                        Potion</h3>
+                      <p class="consum__level">Item Level 50</p>
+                      <p class="consum__use">Use: Imbiber is immune to physical attacks for the next 6 sec. (2 Min
+                        Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/bwo.png" alt="bwo"><span>2</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Brilliant Wizard Oil]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full consumable__hover-even">
+                      <h3 class="consum__title">Brilliant Wizard Oil</h3>
+                      <p class="consum__level">Item Level 55</p>
+                      <p class="consum__use">Use: While applied to target weapon it increases spell damage by up to 36
+                        and increases Spell Critical chance by 1% . Lasts for 30 minutes.</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/eof.png" alt="eof"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Elixir of Fortitude]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Elixir of Fortitude</h3>
+                      <p class="consum__level">Item Level 35</p>
+                      <p class="consum__use">Use: Increases the player's maximum health by 120 for 1 hour. (3 Sec
+                        Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/jjc.png" alt="jjc"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Juju chill]
+                        </div>
+                        <div class="consumable__description--hover back">Necessary on the 2 last bosses</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full consumable__hover-even">
+                      <h3 class="consum__title">Juju Chill</h3>
+                      <p class="consum__level">Item Level 60</p>
+                      <p class="consum__use">
+                        Use: Increase Frost resistance by 15 for 10 min. (1 Min Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/soz.png" alt="soz"></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description link__green front">[Spirit of
+                          Zanza]
+                        </div>
+                        <div class="consumable__description--hover back">Save it for the last bosses</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Spirit of
+                        Zanza</h3>
+                      <p class="consum__level">Item Level 65</p>
+                      <p class="consum__use">Use: Increases the player's Spirit by 50 and Stamina by 50 for 2 hrs. You
+                        can only have the effect of one Zanza potion at a time. (3 Sec Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/rrbl.png" alt="rrbl"><span>10</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Rumsey Rum Black Label]
+                        </div>
+                        <div class="consumable__description--hover back">Keep it up, save 2+ for the last bosses</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full consumable__hover-even">
+                      <h3 class="consum__title">Rumsey Rum Black Label</h3>
+                      <p class="consum__level">Item Level 1</p>
+                      <p class="consum__use">Use: Increases Stamina by 15 for 15 min and gets you drunk to boot!</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/rtts.png" alt="rtts"><span>15</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Runn Tum Tuber Surprise]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Runn Tum Tuber
+                        Surprise</h3>
+                      <p class="consum__level">Item Level 55</p>
+                      <p class="consum__use">Use: Restores 1933.2 health over 27 sec. Must remain seated while eating.
+                        Also increases your Intellect by 10 for 10 min.</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/dr.png" alt="dr"><span>15</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description link__green front">[Demonic
+                          Rune]
+                        </div>
+                        <div class="consumable__description--hover back">Save 4 for the last boss</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full consumable__hover-even">
+                      <h3 class="consum__title">Demonic
+                        Rune</h3>
+                      <p class="consum__level">Item Level 50</p>
+                      <p class="consum__use">
+                        Use: Restores 900 to 1500 mana at the cost of 600 to 1000 life. (2 Min Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/pr.png" alt="pr"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Elixir of Poison Resistance]
+                        </div>
+                        <div class="consumable__description--hover back">Use in the spider wing</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Elixir of Poison Resistance</h3>
+                      <p class="consum__level">Item Level 55</p>
+                      <p class="consum__use">
+                        Use: Imbiber is cured of up to four poisons up to level 60. (3 Sec Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/av.png" alt="av"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Anti-Venom]
+                        </div>
+                        <div class="consumable__description--hover back">Use in the spider wing</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full consumable__hover-even">
+                      <h3 class="consum__title">Anti-Venom</h3>
+                      <p class="consum__level">Item Level 16</p>
+                      <p class="consum__use">
+                        Use: Target is cured of poisons up to level 25. (1 Min Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/bandage.png" alt="rb"><span>20</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Heavy Runecloth Bandage]
+                        </div>
+                        <div class="consumable__description--hover back">Use in extra situations</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Heavy Runecloth Bandage</h3>
+                      <p class="consum__level">Item Level 58</p>
+                      <p class="consum__use">
+                        Use: Heals 2000 damage over 8 sec.</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/hp.png" alt="mhp"><span>10</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Major Healing Potion]
+                        </div>
+                        <div class="consumable__description--hover back">Use in extra situations</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full consumable__hover-even">
+                      <h3 class="consum__title">Major Healing Potion</h3>
+                      <p class="consum__level">Item Level 55</p>
+                      <p class="consum__use">
+                        Use: Restores 1050 to 1750 health. (2 Min Cooldown)</p>
+                    </div>
+                  </li>
+                </ul>
+                <p class="boss__time__description">* Consumables in this list enough for 2-3 wipes</p>
+              </div>
+              <div class="menu_inner--right">
+                <ul class="consumable__list">
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/supreme.png" alt="fosp"></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Flask of Supreme Power]
+                        </div>
+                        <div class="consumable__description--hover back">Necessary on the 2 last bosses</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Flask of Supreme Power</h3>
+                      <p class="consum__level">Item Level 60</p>
+                      <p class="consum__use">Use: Increases damage done by magical spells and effects by up to 150 for 2
+                        hrs. You can only have the effect of one flask at a time. This effect persists through death. (3
+                        Sec Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/ae.png" alt="ae"><span>2</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Greater Arcane Elixir]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Greater Arcane Elixir</h3>
+                      <p class="consum__level">Item Level 57</p>
+                      <p class="consum__use">Use: Increases spell damage by up to 35 for 1 hour. (3 Sec Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/eogfp.png" alt="eogfp"><span>4</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Elixir of Greater
+                          Firepower]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Elixir of Greater
+                        Firepower</h3>
+                      <p class="consum__level">Item Level 50</p>
+                      <p class="consum__use">Use: Increases spell fire damage by up to 40 for 30 min. (3 Sec Cooldown)
+                      </p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/mm.png" alt="mm"><span>10</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Major Mana Potion]
+                        </div>
+                        <div class="consumable__description--hover back">Mostly for boss fights</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Major Mana Potion</h3>
+                      <p class="consum__level">Item Level 59</p>
+                      <p class="consum__use">Use: Restores 1350 to 2250 mana. (2 Min Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/lip.png" alt="lip"><span>10</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Limited Invulnerability Potion]
+                        </div>
+                        <div class="consumable__description--hover back">Use if you overaggro</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Limited Invulnerability
+                        Potion</h3>
+                      <p class="consum__level">Item Level 50</p>
+                      <p class="consum__use">Use: Imbiber is immune to physical attacks for the next 6 sec. (2 Min
+                        Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/bwo.png" alt="bwo"></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Brilliant Wizard Oil]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Brilliant Wizard Oil</h3>
+                      <p class="consum__level">Item Level 55</p>
+                      <p class="consum__use">Use: While applied to target weapon it increases spell damage by up to 36
+                        and increases Spell Critical chance by 1% . Lasts for 30 minutes.</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/eof.png" alt="eof"><span>2</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Elixir of Fortitude]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Elixir of Fortitude</h3>
+                      <p class="consum__level">Item Level 35</p>
+                      <p class="consum__use">Use: Increases the player's maximum health by 120 for 1 hour. (3 Sec
+                        Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/jjc.png" alt="jjc"><span>2</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Juju chill]
+                        </div>
+                        <div class="consumable__description--hover back">Necessary on the 2 last bosses</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Juju Chill</h3>
+                      <p class="consum__level">Item Level 60</p>
+                      <p class="consum__use">
+                        Use: Increase Frost resistance by 15 for 10 min. (1 Min Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/soz.png" alt="soz"></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description link__green front">[Spirit of
+                          Zanza]
+                        </div>
+                        <div class="consumable__description--hover back">Save it for the last bosses</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Spirit of
+                        Zanza</h3>
+                      <p class="consum__level">Item Level 65</p>
+                      <p class="consum__use">Use: Increases the player's Spirit by 50 and Stamina by 50 for 2 hrs. You
+                        can only have the effect of one Zanza potion at a time. (3 Sec Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/rrbl.png" alt="rrbl"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Rumsey Rum Black Label]
+                        </div>
+                        <div class="consumable__description--hover back">Keep it up, save 2+ for the last bosses</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Rumsey Rum Black Label</h3>
+                      <p class="consum__level">Item Level 1</p>
+                      <p class="consum__use">Use: Increases Stamina by 15 for 15 min and gets you drunk to boot!</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/rtts.png" alt="rtts"><span>15</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Runn Tum Tuber Surprise]
+                        </div>
+                        <div class="consumable__description--hover back">Should be up 100% of the time</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Runn Tum Tuber
+                        Surprise</h3>
+                      <p class="consum__level">Item Level 55</p>
+                      <p class="consum__use">Use: Restores 1933.2 health over 27 sec. Must remain seated while eating.
+                        Also increases your Intellect by 10 for 10 min.</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/dr.png" alt="dr"><span>8</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description link__green front">[Demonic
+                          Rune]
+                        </div>
+                        <div class="consumable__description--hover back">Save 4 for the last boss</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Demonic
+                        Rune</h3>
+                      <p class="consum__level">Item Level 50</p>
+                      <p class="consum__use">
+                        Use: Restores 900 to 1500 mana at the cost of 600 to 1000 life. (2 Min Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/pr.png" alt="pr"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Elixir of Poison Resistance]
+                        </div>
+                        <div class="consumable__description--hover back">Use in the spider wing</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Elixir of Poison Resistance</h3>
+                      <p class="consum__level">Item Level 55</p>
+                      <p class="consum__use">
+                        Use: Imbiber is cured of up to four poisons up to level 60. (3 Sec Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/av.png" alt="av"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Anti-Venom]
+                        </div>
+                        <div class="consumable__description--hover back">Use in the spider wing</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Anti-Venom</h3>
+                      <p class="consum__level">Item Level 16</p>
+                      <p class="consum__use">
+                        Use: Target is cured of poisons up to level 25. (1 Min Cooldown)</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/bandage.png" alt="rb"><span>10</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Heavy Runecloth Bandage]
+                        </div>
+                        <div class="consumable__description--hover back">Use in extra situations</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Heavy Runecloth Bandage</h3>
+                      <p class="consum__level">Item Level 58</p>
+                      <p class="consum__use">
+                        Use: Heals 2000 damage over 8 sec.</p>
+                    </div>
+                  </li>
+                  <li class="consumable__item">
+                    <div class="consumable__icon"><img src="img/regular/hp.png" alt="mhp"><span>5</span></div>
+                    <div class="consumable__flip_container flip-container">
+                      <div class="consumable__flipper flipper">
+                        <div class="consumable__description front">[Major Healing Potion]
+                        </div>
+                        <div class="consumable__description--hover back">Use in extra situations</div>
+                      </div>
+                    </div>
+                    <div class="consumable__hover hover__full">
+                      <h3 class="consum__title">Major Healing Potion</h3>
+                      <p class="consum__level">Item Level 55</p>
+                      <p class="consum__use">
+                        Use: Restores 1050 to 1750 health. (2 Min Cooldown)</p>
+                    </div>
+                  </li>
+                </ul>
+                <p class="boss__time__description">* Consumables for ~2 hours raid time, no wipes</p>
+              </div>
+            </div>
+          </div>
+          <div id="content-2">
+            <div class="consumable__boss">
+              <ul class="consumable__boss__list">
+                <li class="consumable__boss__item">
+                  <div class="boss__icon">
+                    <p class="boss__header">Boss</p>
+                  </div>
+                  <div class="boss__consum">
+                    <p class="boss__header">Mandatory</p>
+                  </div>
+                  <div class="boss__optional">
+                    <p class="boss__header">Optional</p>
+                  </div>
+                  <div class="boss__time">
+                    <p class="boss__header">Fight duration*</p>
+                  </div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/1patchwerk.jpg" alt="Patchwerk">
+                    <div class="boss__name">Patchwerk</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover"></t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss"></div>
+                      <div class="boss__consum--hover back back__boss"></div>
+                    </div>
+                  </div>
+                  <div class="boss__time">5-7</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/2grobbulus.jpg" alt="Grobbulus">
+                    <div class="boss__name">Grobbulus</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gnpp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Prepop <span class="span__green span__hover">GNPP<div
+                              class="consumable__hover hover--lowres-left">
+                              <h3 class="consum__title">Greater Nature Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 nature damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> to be safe
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss"></div>
+                      <div class="boss__consum--hover back back__boss"></div>
+                    </div>
+                  </div>
+                  <div class="boss__time">4-6</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/3gluth.jpg" alt="Gluth">
+                    <div class="boss__name">Gluth</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover"></t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gnpp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Prepop <span class="span__green span__hover">GNPP<div
+                              class="consumable__hover hover--lowres">
+                              <h3 class="consum__title">Greater Nature Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 nature damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> in tunnel before boss
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">2-4</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/4thaddius.jpg" alt="Thaddius">
+                    <div class="boss__name">Thaddius</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gnpp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Prepop <span class="span__green span__hover">GNPP<div
+                              class="consumable__hover hover--lowres-left">
+                              <h3 class="consum__title">Greater Nature Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 nature damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> to be safe
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss"></div>
+                      <div class="boss__consum--hover back back__boss"></div>
+                    </div>
+                  </div>
+                  <div class="boss__time">5-7</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/5noth.jpg" alt="Noth the Plaguebringer">
+                    <div class="boss__name">Noth the Plaguebringer</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover"></t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gspp.png" alt=""><img
+                            class="consum__img" src="img/boss_consumables/gapp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use both <span class="span__green span__hover">GSPP<div
+                              class="consumable__hover hover--lowres">
+                              <h3 class="consum__title">Greater Shadow Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 shadow damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> and <span class="span__green span__hover">GAPP<div
+                              class="consumable__hover hover--right">
+                              <h3 class="consum__title">Greater Arcane Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 arcane damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> to be safe
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">3-5</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/6heigan.jpg" alt="Heigan the Unclean">
+                    <div class="boss__name">Heigan the Unclean</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gnpp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use <span class="span__green span__hover">GNPP<div
+                              class="consumable__hover">
+                              <h3 class="consum__title">Greater Nature Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 nature damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> to be safe
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gspp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use <span class="span__green span__hover">GSPP<div
+                              class="consumable__hover hover--lowres">
+                              <h3 class="consum__title">Greater Shadow Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 shadow damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> if you get ported
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">4-6</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/7loatheb.jpg" alt="Loatheb">
+                    <div class="boss__name">Loatheb</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gspp.png"
+                            alt=""><span>3</span></t>
+                        <t class="comments"><img class="consum__img" src="img/regular/bandage.png" alt=""><span>2</span>
+                        </t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use <span class="span__green span__hover">GSPP<div
+                              class="consumable__hover">
+                              <h3 class="consum__title">Greater Shadow Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 shadow damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> on cd, rotate healing consumes
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/hs.png" alt=""></t>
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/wrt.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use <span class="span__green span__hover">WRT<div
+                              class="consumable__hover hover--lowres">
+                              <h3 class="consum__title">Whipper Root Tuber</h3>
+                              <p class="consum__level">Item Level 55</p>
+                              <p class="consum__use">
+                                Use: Restores 700 to 900 health. (2 Min Cooldown)</p>
+                            </div></span> if you don't have <span class="span__green span__hover">HS<div
+                              class="consumable__hover hover--right">
+                              <h3 class="consum__title">Major Healthstone</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Instantly restores 1440 life. (2 Min Cooldown)</p>
+                            </div></span>
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">6-8</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/8anub.jpg" alt="Anub'Rekhan">
+                    <div class="boss__name">Anub'Rekhan</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/regular/lip.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover"><span class="span__green span__hover">LIP<div
+                              class="consumable__hover">
+                              <h3 class="consum__title">Limited Invulnerability Potion</h3>
+                              <p class="consum__level">Item Level 50</p>
+                              <p class="consum__use">
+                                Use: Imbiber is immune to physical attacks for the next 6 sec. (2 Min Cooldown)</p>
+                            </div></span> or <span class="span__blue span__hover">Blink<div
+                              class="consumable__hover hover--lowres-left">
+                              <h3 class="consum__title">Blink</h3>
+                              <p class="consum__level">Requires Level 20</p>
+                              <p class="consum__use">
+                                Teleports the caster 20 yards forward, unless something is in the way. Also frees the
+                                caster from stuns and bonds.</p>
+                            </div></span> to avoid fall damage
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/lf.png"
+                            alt=""><span>3</span></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover"><span class="span__blue span__hover">Slow Fall<div
+                              class="consumable__hover hover--lowres">
+                              <h3 class="consum__title">Slow Fall</h3>
+                              <p class="consum__level">Requires Level 12</p>
+                              <p class="consum__use">
+                                Slows falling speed for 30 sec.
+                              </p>
+                            </div></span> also works
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">2-3</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/9faerlina.jpg" alt="Grand Widow Faerlina">
+                    <div class="boss__name">Grand Widow Faerlina</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gnpp.png" alt=""></t>
+                        <t class="comments"><img class="consum__img" src="img/regular/av.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use <span class="span__green span__hover">GNPP<div
+                              class="consumable__hover">
+                              <h3 class="consum__title">Greater Nature Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 nature damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> and <span class="span__green span__hover">AV<div
+                              class="consumable__hover hover--lowres-left">
+                              <h3 class="consum__title">Anti-Venom</h3>
+                              <p class="consum__level">Item Level 16</p>
+                              <p class="consum__use">
+                                Use: Target is cured of poisons up to level 25. (1 Min Cooldown)</p>
+                            </div></span> to be safe
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gfpp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Prepop <span class="span__green span__hover">GFPP<div
+                              class="consumable__hover hover--lowres">
+                              <h3 class="consum__title">Greater Fire Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 fire damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> if you have brain delay
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">2-3</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/10maexxna.jpg" alt="Maexxna">
+                    <div class="boss__name">Maexxna</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gnpp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Prepop <span class="span__green span__hover">GNPP<div
+                              class="consumable__hover hover--lowres-left">
+                              <h3 class="consum__title">Greater Nature Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">Use: Absorbs 1950 to 3250 nature damage. Lasts 1 hour. (2 Min
+                                Cooldown)</p>
+                            </div></span> to be safe
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/regular/av.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use <span class="span__green span__hover">AV<div
+                              class="consumable__hover hover--lowres">
+                              <h3 class="consum__title">Anti-Venom</h3>
+                              <p class="consum__level">Item Level 16</p>
+                              <p class="consum__use">
+                                Use: Target is cured of poisons up to level 25. (1 Min Cooldown)</p>
+                            </div></span> to dispel <span class="span__blue span__hover">Necrotic Poison<div
+                              class="consumable__hover hover--right">
+                              <h3 class="consum__title">Necrotic Poison</h3>
+                              <p class="consum__level">Boss Ability</p>
+                              <p class="consum__use">
+                                Reduces healing taken by 90% for 30 seconds.</p>
+                            </div></span>
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">2-3</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/11instructor.jpg" alt="Instructor Razuvious">
+                    <div class="boss__name">Instructor Razuvious</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover"></t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss"></div>
+                      <div class="boss__consum--hover back back__boss"></div>
+                    </div>
+                  </div>
+                  <div class="boss__time">3-5</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/12gothic.jpg" alt="Gothik the Harvester">
+                    <div class="boss__name">Gothik the Harvester</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gspp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use <span class="span__green span__hover">GSPP<div
+                              class="consumable__hover">
+                              <h3 class="consum__title">Greater Shadow Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 shadow damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> to be safe
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss"></div>
+                      <div class="boss__consum--hover back back__boss"></div>
+                    </div>
+                  </div>
+                  <div class="boss__time">6-7</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/13fourhorseman.jpg" alt="The Four Horsemen">
+                    <div class="boss__name">The Four Horsemen</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gspp.png" alt=""></t>
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gfpp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Prepop both <span class="span__green span__hover">GSPP<div
+                              class="consumable__hover">
+                              <h3 class="consum__title">Greater Shadow Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 shadow damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> and <span class="span__green span__hover">GFPP<div
+                              class="consumable__hover hover--lowres-left">
+                              <h3 class="consum__title">Greater Fire Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 fire damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> to be safe
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gspp.png" alt=""></t>
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/gfpp.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use again if needed</t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">7-10</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/14sapphiron.jpg" alt="Sapphiron">
+                    <div class="boss__name">Sapphiron</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/frost.png"
+                            alt=""><span>3</span></t>
+                        <t class="comments"><img class="consum__img" src="img/regular/jjc.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Prepop <span class="span__green span__hover">GFPP<div
+                              class="consumable__hover hover--lowres-left">
+                              <h3 class="consum__title">Greater Frost Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 frost damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> and <span class="span__green span__hover">Juju<div class="consumable__hover">
+                              <h3 class="consum__title">Juju Chill</h3>
+                              <p class="consum__level">Item Level 60</p>
+                              <p class="consum__use">
+                                Use: Increase Frost resistance by 15 for 10 min. (1 Min Cooldown)</p>
+                            </div></span>, use <span class="span__green span__hover">GFPP<div class="consumable__hover">
+                              <h3 class="consum__title">Greater Frost Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 frost damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> on cd
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss"></div>
+                      <div class="boss__consum--hover back back__boss"></div>
+                    </div>
+                  </div>
+                  <div class="boss__time">7-10</div>
+                </li>
+                <li class="consumable__boss__item">
+                  <div class="boss__icon"><img src="img/nax_bosses/15kel.jpg" alt="Kel'Thuzad">
+                    <div class="boss__name">Kel'Thuzad</div>
+                  </div>
+                  <div class="boss__flip_container--mandatory shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/boss_consumables/frost.png"
+                            alt=""><span>3</span></t>
+                        <t class="comments"><img class="consum__img" src="img/regular/jjc.png" alt=""></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Prepop <span class="span__green span__hover">GFPP<div
+                              class="consumable__hover hover--lowres-left">
+                              <h3 class="consum__title">Greater Frost Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 frost damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> and <span class="span__green span__hover">Juju<div class="consumable__hover">
+                              <h3 class="consum__title">Juju Chill</h3>
+                              <p class="consum__level">Item Level 60</p>
+                              <p class="consum__use">
+                                Use: Increase Frost resistance by 15 for 10 min. (1 Min Cooldown)</p>
+                            </div></span>, use <span class="span__green span__hover">GFPP<div class="consumable__hover">
+                              <h3 class="consum__title">Greater Frost Protection Potion</h3>
+                              <p class="consum__level">Item Level 58</p>
+                              <p class="consum__use">
+                                Use: Absorbs 1950 to 3250 frost damage. Lasts 1 hour. (2 Min Cooldown)</p>
+                            </div></span> on cd
+                        </t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__flip_container--optional shiny__hover flip-container flip-container__boss">
+                    <div class="boss__flipper flipper flipper__boss">
+                      <div class="boss__consum front front__boss">
+                        <t class="comments"><img class="consum__img" src="img/regular/dr.png" alt=""><span>4</span></t>
+                      </div>
+                      <div class="boss__consum--hover back back__boss">
+                        <t class="comments__hover">Use <span class="span__green span__hover">DR<div
+                              class="consumable__hover hover--lowres">
+                              <h3 class="consum__title">Demonic
+                                Rune</h3>
+                              <p class="consum__level">Item Level 50</p>
+                              <p class="consum__use">
+                                Use: Restores 900 to 1500 mana at the cost of 600 to 1000 life. (2 Min Cooldown)</p>
+                            </div></span> on cd after gem</t>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boss__time">9-12</div>
+                </li>
+              </ul>
+              <p class="boss__time__description">* - Approximate kill time in minutes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__wrap wrap">
+        <p class="discord__profile">Feel free to contact me:</p>
+        <img src="img/discord_logo.png" alt="" class="discord__logo">
+        <p class="discord__profile">wade#8513</p>
+        <img src="img/wow_logo.png" alt="" class="wow__logo">
+        <p class="discord__profile"><a href="https://classic.warcraftlogs.com/character/eu/shazzrah/wade">Wade</a> -
+          Shazzrah</p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    foo.onclick = function () {
+      this.classList.toggle('rotate')
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mage consumables list</title>
+  <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__wrap wrap">
+        <div class="header__logo">
+          <a class="header__logo__link" href="index.html">
+            <img class="header__logo__pic" src="img/logo.png" alt="naxxramas_patch_logo" />
+          </a>
+        </div>
+        <ul class="header__nav class__menu">
+          <li class="class__menu__item class__druid">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/druid.png" alt="druid" />Druid
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/druid_balance.png" alt="" />Balance</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/druid_feral.png" alt="" />Feral</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/druid_resto.png"
+                    alt="" />Restoration</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/druid_tank.png" alt="" />Tank</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__hunter">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/hunter.png" alt="hunter" />Hunter
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/hunter_dps.png" alt="" />DPS</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__mage">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/mage.png" alt="mage" />Mage
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="mage.html"><img class="class__icon-spec" src="img/specs/mage_fire.png" alt="" />Fire</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__paladin">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/paladin.png" alt="paladin" />Paladin
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/paladin_holy.png" alt="" />Holy</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__priest">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/priest.png" alt="priest" />Priest
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/priest_holy.png" alt="" />Holy</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/priest_shadow.png" alt="" />Shadow</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__rogue">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/rogue.png" alt="rogue" />Rogue
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/rogue_dps.png" alt="" />DPS</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__shaman">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/shaman.png" alt="shaman" />Shaman
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_ele.png" alt="" />Elemental</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_enh.png" alt="" />Enhancement</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_resto.png"
+                    alt="" />Restoration</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__warlock">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/warlock.png" alt="warlock" />Warlock
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/warlock_dps.png" alt="" />DPS</a>
+              </div>
+            </div>
+          </li>
+          <li class="class__menu__item class__warrior">
+            <div class="class__menu__dropdown dropdown">
+              <button class="class__menu__dropbutton dropbtn">
+                <img class="class__icon" src="img/warrior.png" alt="warrior" />Warrior
+              </button>
+              <div class="class__menu__content dropdown-content">
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/warrior_dps.png" alt="" />DPS</a>
+                <a href="404.html"><img class="class__icon-spec" src="img/specs/warrior_tank.png" alt="" />TANK</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <nav>
+          <label for="drop" id="foo" class="toggle" style="text-align:center; font-size: 18px">
+            <div class="arrow"><img src="img/arrow.png" alt="">Classes</div>
+          </label>
+          <input type="checkbox" id="drop" />
+          <ul class="menu">
+            <li class="class__druid">
+              <label for="drop-1" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/druid.png" alt="druid" />
+                  <p class="class__menu__dropbutton nav__class">Druid</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-1" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/druid_balance.png"
+                      alt="" />Balance</a></li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/druid_feral.png" alt="" />Feral</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/druid_resto.png"
+                      alt="" />Restoration</a></li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/druid_tank.png" alt="" />Tank</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__hunter">
+              <label for="drop-2" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/hunter.png" alt="hunter" />
+                  <p class="class__menu__dropbutton nav__class">Hunter</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-2" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/hunter_dps.png" alt="" />DPS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__mage">
+              <label for="drop-3" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/mage.png" alt="mage" />
+                  <p class="class__menu__dropbutton nav__class">Mage</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-3" />
+              <ul class="">
+                <li><a href="mage.html"><img class="class__icon-spec" src="img/specs/mage_fire.png" alt="" />Fire</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__paladin">
+              <label for="drop-4" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/paladin.png" alt="paladin" />
+                  <p class="class__menu__dropbutton nav__class">Paladin</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-4" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/paladin_holy.png" alt="" />Holy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__priest">
+              <label for="drop-5" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/priest.png" alt="priest" />
+                  <p class="class__menu__dropbutton nav__class">Priest</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-5" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/priest_holy.png" alt="" />Holy</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/priest_shadow.png"
+                      alt="" />Shadow</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__rogue">
+              <label for="drop-6" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/rogue.png" alt="rogue" />
+                  <p class="class__menu__dropbutton nav__class">Rogue</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-6" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/rogue_dps.png" alt="" />DPS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__shaman">
+              <label for="drop-7" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/shaman.png" alt="shaman" />
+                  <p class="class__menu__dropbutton nav__class">Shaman</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-7" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_ele.png"
+                      alt="" />Elemental</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_enh.png"
+                      alt="" />Enhancement</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/shaman_resto.png"
+                      alt="" />Restoration</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__warlock">
+              <label for="drop-8" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/warlock.png" alt="warlock" />
+                  <p class="class__menu__dropbutton nav__class">Warlock</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-8" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/warlock_dps.png" alt="" />DPS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="class__warrior">
+              <label for="drop-9" class="toggle">
+                <div class="class__wrap"><img class="class__icon" src="img/warrior.png" alt="warrior" />
+                  <p class="class__menu__dropbutton nav__class">Warrior</p>
+                </div>
+              </label>
+              <input type="checkbox" id="drop-9" />
+              <ul class="">
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/warrior_dps.png" alt="" />DPS</a>
+                </li>
+                <li><a href="404.html"><img class="class__icon-spec" src="img/specs/warrior_tank.png" alt="" />Tank</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main">
+      <div class="main__wrap wrap">
+        <p class="coming__soon">Coming Soon</p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__wrap wrap">
+        <p class="discord__profile">Feel free to contact me:</p>
+        <img src="img/discord_logo.png" alt="" class="discord__logo">
+        <p class="discord__profile">wade#8513</p>
+        <img src="img/wow_logo.png" alt="" class="wow__logo">
+        <p class="discord__profile"><a href="https://classic.warcraftlogs.com/character/eu/shazzrah/wade">Wade</a> - Shazzrah</p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    foo.onclick = function () {
+      this.classList.toggle('rotate')
+    }
+  </script>
+</body>
+
+</html>
